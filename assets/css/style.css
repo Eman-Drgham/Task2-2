@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+
+header {
+    background-image: url("../images/university-library.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.nav {
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+}
+
+.links {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+
+.links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero {
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    background-color: rgba(255, 255, 255, 0.253);
+    font-size: 56px;
+}
+
+.about {
+    height: 700px;
+    background-color: #f2f9fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.services,
+.specialization,
+.teachers,
+.plans,
+.contact {
+    height: 700px;
+    background-color: #fcd5bf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.list {
+    width: 80%;
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list li {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.list li h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list li p {
+    text-align: center;
+}
+
+
+.specialization {
+    background-color: #f2f9fc;
+
+}
+
+.list li img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.plans {
+    background-color: #f2f9fc;
+}
+
+.plans-list {
+    width: 80%;
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.plans-list .plan {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #fcd5bf;
+    border-radius: 10px;
+}
+
+.plans-list .plan img {
+    width: 100%;
+    height: 100px;
+}
+
+.plans-list .plan h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.plans-list .plan .feature {
+    width: 70%;
+    list-style: disc;
+    font-size: 24px;
+}
+
+.plans-list .plan .info {
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+    background-color: #fde98c;
+    border: 2px solid yellow;
+    font-size: 24px;
+}
+
+.plans-list .plan .feature {
+    list-style: disc;
+}
+
+.contact {
+    background-color: #fcd5bf;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.input label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.input input{
+    width: 500px;
+    height: 30px;
+}
+.input textarea{
+    width: 500px;
+    height: 50px;
+}
+.btn{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 8px;
+}
+.contact-info {
+    font-size: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color: #ffffff;
+    height: 50px;
+}
+
+footer ul{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 18px;
+}
